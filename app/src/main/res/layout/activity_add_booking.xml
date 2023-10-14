@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBookingActivity">
+
+    <ScrollView
+        android:layout_width="402dp"
+        android:layout_height="645dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:context=".BookingActivity">
+
+            <!-- Doctor Selection Spinner -->
+
+            <!-- Date Picker -->
+            <Spinner
+                android:id="@+id/spinnerDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Select Doctor" />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Time Picker -->
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Book Appointment Button -->
+            <Button
+                android:id="@+id/btnBookAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_200"
+                android:text="Book Appointment"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

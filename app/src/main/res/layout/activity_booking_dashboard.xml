@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="145dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="220dp"
+        android:backgroundTint="#F3C80E"
+        android:shadowRadius="50"
+        android:text="Add Bookings"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="239dp"
+        android:layout_height="290dp"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/doctorgifs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="417dp"
+        android:layout_height="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/topimagess" />
+
+    <Button
+        android:id="@+id/btnViewBook"
+        android:layout_width="146dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="52dp"
+        android:backgroundTint="#DD7FA1"
+        android:shadowRadius="50"
+        android:text="View Bookings"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/view2"
+        style="@style/custom_card_vive_home"
+        android:layout_width="189dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginBottom="4dp"
+        android:background="#CD1D1D"
+        android:backgroundTint="#E8A249"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="224dp"
+        android:text="Booking you Doctor"
+        android:textAlignment="center"
+        android:textColor="#5B7185"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="228dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

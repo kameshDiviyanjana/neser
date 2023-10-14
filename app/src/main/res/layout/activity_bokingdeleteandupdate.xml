@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A5353"
+    android:backgroundTint="#B7CDD8"
+    tools:context=".Bokingdeleteandupdate">
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="248dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/serch"
+        android:layout_width="217dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="serch"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/times"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="348dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/dates"
+        android:layout_width="246dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="212dp"
+        android:backgroundTint="#56D85B"
+        android:text="update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="632dp"
+        android:backgroundTint="#1E88E5"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btddeteles"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginBottom="212dp"
+        android:backgroundTint="#DA1313"
+        android:text="delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
